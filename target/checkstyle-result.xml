@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReader.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReaderImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandsStorageDtoImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorage.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorageDto.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\DataStorage.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFile.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFileImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompiler.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompilerImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriter.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriterImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngine.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngineImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReader.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReaderImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategy.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategyImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterface.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterfaceImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\Main.java">
+</file>
+</checkstyle>
