@@ -1,7 +1,8 @@
-package main.menu.options.search;
+package main.menu;
 
 import java.util.Scanner;
 import local.storage.BrandStorage;
+import main.menu.UserInputReader;
 
 public class UserInputReaderImpl implements UserInputReader {
     private static final String OPTION_2 = "2";

@@ -1,7 +1,7 @@
 import data.reader.DataReader;
 import data.reader.DataReaderImpl;
-import local.storage.BrandStorageDto;
-import local.storage.BrandsStorageDtoImpl;
+import local.storage.BrandStorageFiller;
+import local.storage.BrandsStorageFillerImpl;
 import local.storage.DataStorage;
 import main.menu.InputFile;
 import main.menu.InputFileImpl;
@@ -18,7 +18,7 @@ public class Main {
         DataReader reader = new DataReaderImpl();
         DataStorage.getStorage().addAll(reader.readFile(mainFile));
 
-        BrandStorageDto brandStorageDto = new BrandsStorageDtoImpl();
+        BrandStorageFiller brandStorageDto = new BrandsStorageFillerImpl();
         brandStorageDto.fillBrandStorage();
 
         UserInterface userInterface = new UserInterfaceImpl();

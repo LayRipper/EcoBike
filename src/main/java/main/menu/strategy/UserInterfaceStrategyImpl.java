@@ -2,13 +2,15 @@ package main.menu.strategy;
 
 import local.storage.DataStorage;
 import main.menu.options.catalogue.CatalogueCompilerImpl;
+import main.menu.options.insert.NewBikeWriter;
 import main.menu.options.insert.NewBikeWriterImpl;
 import main.menu.options.search.SearchEngineImpl;
-import main.menu.options.search.UserInputReaderImpl;
+import main.menu.UserInputReader;
+import main.menu.UserInputReaderImpl;
 
 public class UserInterfaceStrategyImpl implements UserInterfaceStrategy {
-    private static final NewBikeWriterImpl BIKE_WRITER = new NewBikeWriterImpl();
-    private static final UserInputReaderImpl INPUT_READER = new UserInputReaderImpl();
+    private static final NewBikeWriter BIKE_WRITER = new NewBikeWriterImpl();
+    private static final UserInputReader INPUT_READER = new UserInputReaderImpl();
 
     public void doAction(String option, String toFile) {
         switch (option) {

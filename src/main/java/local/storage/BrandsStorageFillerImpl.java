@@ -2,10 +2,9 @@ package local.storage;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
-public class BrandsStorageDtoImpl implements BrandStorageDto {
+public class BrandsStorageFillerImpl implements BrandStorageFiller {
     private static final String SPEEDELEC = "SPEEDELEC";
     private static final String FOLDING_BIKE = "FOLDING BIKE";
     private static final String E_BIKE = "E-BIKE";
@@ -14,7 +13,7 @@ public class BrandsStorageDtoImpl implements BrandStorageDto {
     private static final int FOLDING_BIKE_BRAND_POSITION = 3;
 
     @Override
-    public Map<String, List<String>> fillBrandStorage() {
+    public void fillBrandStorage() {
         List<String> speedelecBrands = DataStorage.getStorage().parallelStream()
                 .filter(bike -> bike.contains(SPEEDELEC))
                 .flatMap(n -> Arrays.stream(n.replaceAll(SEMICOLON_DELIMITER, "")
@@ -42,6 +41,5 @@ public class BrandsStorageDtoImpl implements BrandStorageDto {
         BrandStorage.getBrandStorage().put(SPEEDELEC, speedelecBrands);
         BrandStorage.getBrandStorage().put(FOLDING_BIKE, foldingBikeBrands);
         BrandStorage.getBrandStorage().put(E_BIKE, ebikeBrands);
-        return BrandStorage.getBrandStorage();
     }
 }
