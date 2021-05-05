@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Mon May 03 21:42:03 EEST 2021
 configuration*?=8A0EDB8C8B50826235D37AD0AB3B348F11B71275
 C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\insert\\NewBikeWriterImpl.java=1620066778563
@@ -21,3 +22,28 @@ C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\InputFileI
 C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\UserInterfaceImpl.java=1620067065376
 C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\data\\reader\\DataReader.java=1620041982850
 C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\local\\storage\\BrandsStorageDtoImpl.java=1620067125844
+=======
+#Mon May 03 21:42:03 EEST 2021
+configuration*?=8A0EDB8C8B50826235D37AD0AB3B348F11B71275
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\insert\\NewBikeWriterImpl.java=1620066778563
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\UserInterface.java=1620045524996
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\search\\UserInputReaderImpl.java=1620066944701
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\strategy\\UserInterfaceStrategy.java=1620061130635
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\data\\reader\\DataReaderImpl.java=1620066653466
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\local\\storage\\BrandStorage.java=1620066734136
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\InputFile.java=1620053340216
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\insert\\NewBikeWriter.java=1620047669367
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\local\\storage\\DataStorage.java=1620031728023
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\search\\UserInputReader.java=1620044799912
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\catalogue\\CatalogueCompilerImpl.java=1620066747638
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\strategy\\UserInterfaceStrategyImpl.java=1620067093687
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\catalogue\\CatalogueCompiler.java=1620041982862
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\local\\storage\\BrandStorageDto.java=1620037325101
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\search\\SearchEngine.java=1620047408712
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\options\\search\\SearchEngineImpl.java=1620066798208
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\Main.java=1620059997448
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\InputFileImpl.java=1620066739924
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\main\\menu\\UserInterfaceImpl.java=1620067065376
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\data\\reader\\DataReader.java=1620041982850
+C\:\\Users\\Puff\\IdeaProjects\\EcoBike\\src\\main\\java\\local\\storage\\BrandsStorageDtoImpl.java=1620067125844
+>>>>>>> origin/main
