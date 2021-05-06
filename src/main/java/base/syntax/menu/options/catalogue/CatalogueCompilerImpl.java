@@ -9,7 +9,7 @@ public class CatalogueCompilerImpl implements CatalogueCompiler {
     private static final int BIKE_PRICE = 6;
 
     @Override
-    public String complyCatalogue() {
+    public void executeQuery(String input, String toFile) {
         StringBuilder builder = new StringBuilder();
         for (String bike : DataStorage.getStorage()) {
             String[] bikeTitles = bike.split(";");
@@ -32,6 +32,6 @@ public class CatalogueCompilerImpl implements CatalogueCompiler {
             }
             builder.append("Price:").append(bikeTitles[BIKE_PRICE]).append(" euros.\n");
         }
-        return builder.toString();
+        System.out.println(builder);
     }
 }

@@ -11,13 +11,19 @@ import base.syntax.menu.options.writer.NewBikeWriterImpl;
 import base.syntax.menu.strategy.QueryExecutor;
 import base.syntax.menu.strategy.UserInterfaceStrategy;
 import base.syntax.menu.strategy.UserInterfaceStrategyImpl;
+import base.syntax.service.BrandStorageFiller;
+import base.syntax.service.BrandsStorageFillerImpl;
 import base.syntax.service.DataReader;
 import base.syntax.service.DataReaderImpl;
+import base.syntax.service.UserInputReader;
+import base.syntax.service.UserInputReaderImpl;
+import base.syntax.storage.DataStorage;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
+
         Map<String, QueryExecutor> strategyMap = new HashMap<>();
         strategyMap.put("1", new CatalogueCompilerImpl());
         strategyMap.put("2", new NewBikeWriterImpl());
@@ -26,17 +32,22 @@ public class Main {
         strategyMap.put("5", new SearchEngineImpl());
         strategyMap.put("6", new NewBikeWriterImpl());
         strategyMap.put("7", new ExitImpl());
-        UserInterfaceStrategy userInterfaceStrategy = new UserInterfaceStrategyImpl(strategyMap);
+        final UserInterfaceStrategy userInterfaceStrategy
+                = new UserInterfaceStrategyImpl(strategyMap);
 
         InputFile inputFile = new InputFileImpl();
         String retrievedFile = inputFile.getFile();
 
         DataReader reader = new DataReaderImpl();
         reader.readFile(retrievedFile);
+        DataStorage.getStorage().addAll(reader.readFile(retrievedFile));
+        BrandStorageFiller brandStorageFiller = new BrandsStorageFillerImpl();
+        brandStorageFiller.fillBrandStorage();
 
         UserInterface userInterface = new UserInterfaceImpl();
         String option = userInterface.chooseAction();
-
-        userInterfaceStrategy.getAction(option);
+        UserInputReader userInputReader = new UserInputReaderImpl();
+        userInterfaceStrategy.getAction(option)
+                .executeQuery(userInputReader.readFromConsole(option), retrievedFile);
     }
 }

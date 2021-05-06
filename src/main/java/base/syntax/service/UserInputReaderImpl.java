@@ -17,19 +17,17 @@ public class UserInputReaderImpl implements UserInputReader {
     private String maxSpeed;
     private String weight;
     private String batteryCapacity;
-    private String lights;
-    private String color;
-    private String price;
-    private String bikeBrand;
     private String wheelSize;
     private String gearsNumber;
-    private String bikeType;
 
     public String readFromConsole(String option) {
+        if (option.equals("1")) {
+            return "";
+        }
         Scanner scanner = new Scanner(System.in);
         System.out.print("Brand of bike: ");
-        bikeBrand = scanner.nextLine();
-        bikeType = option.equals(OPTION_2)
+        String bikeBrand = scanner.nextLine();
+        String bikeType = option.equals(OPTION_2)
                 ? FOLDING_BIKE : option.equals(OPTION_3)
                 ? SPEEDELEC : option.equals(OPTION_4)
                 ? E_BIKE : BrandStorage.getKey(bikeBrand);
@@ -55,11 +53,11 @@ public class UserInputReaderImpl implements UserInputReader {
 
         }
         System.out.print("The availability of lights at front and back (true/false): ");
-        lights = scanner.nextLine();
+        final String lights = scanner.nextLine();
         System.out.print("Color: ");
-        color = scanner.nextLine();
+        String color = scanner.nextLine();
         System.out.print("Price: ");
-        price = scanner.nextLine();
+        String price = scanner.nextLine();
         scanner.close();
 
         return bikeType.equals(E_BIKE) ? new EBike(bikeBrand, maxSpeed, weight, lights,

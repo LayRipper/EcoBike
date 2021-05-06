@@ -1,10 +1,9 @@
 package base.syntax.menu.strategy;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class UserInterfaceStrategyImpl implements UserInterfaceStrategy {
-    private Map<String, QueryExecutor> executionMap = new HashMap<>();
+    private final Map<String, QueryExecutor> executionMap;
 
     public UserInterfaceStrategyImpl(Map<String, QueryExecutor> strategyMap) {
         this.executionMap = strategyMap;

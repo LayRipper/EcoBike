@@ -5,13 +5,13 @@ import java.util.Arrays;
 
 public class SearchEngineImpl implements SearchEngine {
     @Override
-    public String searchBike(String givenBikeParameters, String toFile) {
+    public void executeQuery(String givenBikeParameters, String toFile) {
         String[] bikeParametersArray = givenBikeParameters
                 .replaceAll(";", "").trim().split(" ");
 
-        return DataStorage.getStorage().stream()
+        System.out.println(DataStorage.getStorage().stream()
                 .filter(n -> Arrays.asList(n.replaceAll(";", "")
                         .split(" ")).containsAll(Arrays.asList(bikeParametersArray)))
-                .findFirst().orElse("No matches found. Try other parameters.");
+                .findFirst().orElse("No matches found. Try other parameters."));
     }
 }
