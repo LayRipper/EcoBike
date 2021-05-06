@@ -1,93 +1,67 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReader.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\Main.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReaderImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\InputFile.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandsStorageDtoImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\InputFileImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorage.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\CatalogueCompiler.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorageDto.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\CatalogueCompilerImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\DataStorage.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\Exit.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFile.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\ExitImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFileImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\search\SearchEngine.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompiler.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\search\SearchEngineImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompilerImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\writer\NewBikeWriter.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriter.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\writer\NewBikeWriterImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriterImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\strategy\QueryExecutor.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngine.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\strategy\UserInterfaceStrategy.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngineImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\strategy\UserInterfaceStrategyImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReader.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\UserInterface.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReaderImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\UserInterfaceImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategy.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\Bike.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategyImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\BikeParser.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterface.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\BikeParserImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterfaceImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\EBike.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\Main.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\EcoBike.java">
 </file>
-</checkstyle>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.29">
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReader.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\FoldingBike.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\data\reader\DataReaderImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\Speedelec.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandsStorageDtoImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandsStorageFillerImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorage.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandStorageFiller.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\BrandStorageDto.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\DataReader.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\local\storage\DataStorage.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\DataReaderImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFile.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\UserInputReader.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\InputFileImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\UserInputReaderImpl.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompiler.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\storage\BrandStorage.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\catalogue\CatalogueCompilerImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\storage\DataStorage.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriter.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\insert\NewBikeWriterImpl.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngine.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\SearchEngineImpl.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReader.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\options\search\UserInputReaderImpl.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategy.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\strategy\UserInterfaceStrategyImpl.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterface.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\main\menu\UserInterfaceImpl.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\Main.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\reader\DataReaderImplTest.java">
 </file>
 </checkstyle>
->>>>>>> origin/main

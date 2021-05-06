@@ -1,0 +1,19 @@
+package base.syntax.menu;
+
+import java.util.Scanner;
+
+public class UserInterfaceImpl implements UserInterface {
+    @Override
+    public String chooseAction() {
+        final Scanner scanner = new Scanner(System.in);
+        System.out.println("Please make your choice: " + System.lineSeparator()
+                + "1 - Show the entire EcoBike catalog " + System.lineSeparator()
+                + "2 – Add a new folding bike " + System.lineSeparator()
+                + "3 – Add a new speedelec " + System.lineSeparator()
+                + "4 – Add a new e-bike " + System.lineSeparator()
+                + "5 – Find the first item of a particular brand " + System.lineSeparator()
+                + "6 – Write to file " + System.lineSeparator()
+                + "7 – Stop the program");
+        return scanner.next().trim();
+    }
+}
