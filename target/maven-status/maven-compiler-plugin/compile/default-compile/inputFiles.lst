@@ -3,6 +3,7 @@ C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\FoldingBike.j
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandsStorageFillerImpl.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandStorageFiller.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\UserInputReader.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\file\writer\AutoSave.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\BikeParserImpl.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\EBike.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\DataReader.java
@@ -17,6 +18,7 @@ C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\InputFileImpl.
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\CatalogueCompilerImpl.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\UserInterfaceImpl.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\Speedelec.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\file\writer\AutoSaveImpl.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\strategy\UserInterfaceStrategy.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\Exit.java
 C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\strategy\QueryExecutor.java

@@ -1,5 +1,5 @@
 package base.syntax.menu.strategy;
 
 public interface UserInterfaceStrategy {
-    QueryExecutor getAction(String option);
+    QueryExecutor getAction(Integer option);
 }

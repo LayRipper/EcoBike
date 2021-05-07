@@ -12,10 +12,12 @@ base\syntax\menu\UserInterface.class
 base\syntax\menu\options\catalogue\CatalogueCompiler.class
 base\syntax\menu\options\exit\Exit.class
 base\syntax\model\BikeParserImpl.class
+base\syntax\menu\options\file\writer\AutoSave.class
 base\syntax\model\EcoBike.class
 base\syntax\menu\strategy\QueryExecutor.class
 base\syntax\menu\options\writer\NewBikeWriter.class
 base\syntax\Main.class
+base\syntax\menu\options\file\writer\AutoSaveImpl.class
 base\syntax\menu\options\writer\NewBikeWriterImpl.class
 base\syntax\storage\BrandStorage.class
 base\syntax\service\DataReader.class

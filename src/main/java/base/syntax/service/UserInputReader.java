@@ -1,5 +1,5 @@
 package base.syntax.service;
 
 public interface UserInputReader {
-    String readFromConsole(String option);
+    String readFromConsole(Integer option);
 }
