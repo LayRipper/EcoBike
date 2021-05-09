@@ -1,0 +1,3 @@
+SPEEDELEC E-Scooter; 60; 15300; false; 14800; marine; 309
+E-BIKE Lankeleisi; 65; 24200; false; 10000; black; 2399
+FOLDIdsd

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\lib\Component.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\lib\Inject.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\lib\Injector.java">
+</file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\Main.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\InputFile.java">
@@ -9,6 +15,14 @@
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\CatalogueCompiler.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\CatalogueCompilerImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\UserFriendlyBike.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\catalogue\UserFriendlyBikeImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\DataIntegrityChecker.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\DataIntegrityCheckerImpl.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\menu\options\exit\Exit.java">
 </file>
@@ -38,10 +52,6 @@
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\Bike.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\BikeParser.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\BikeParserImpl.java">
-</file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\EBike.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\EcoBike.java">
@@ -50,22 +60,60 @@
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\model\Speedelec.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandsStorageFillerImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BikeParser.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\BrandStorageFiller.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\DataReader.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\DataReaderImpl.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\BikeParserImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\BrandsStorageFillerImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\DataReaderImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\IntegerInputCheckerImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\StringInputCheckerImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\impl\UserInputReaderImpl.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\input\validator\IntegerInputChecker.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\input\validator\StringInputChecker.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\UserInputReader.java">
-</file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\service\UserInputReaderImpl.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\storage\BrandStorage.java">
 </file>
 <file name="C:\Users\Puff\IdeaProjects\EcoBike\src\main\java\base\syntax\storage\DataStorage.java">
 </file>
-<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\reader\DataReaderImplTest.java">
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\InputFileImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\catalogue\CatalogueCompilerImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\catalogue\UserFriendlyBikeImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\exit\DataIntegrityCheckerImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\file\writer\AutoSaveImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\search\SearchEngineImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\writer\NewBikeWriterImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\UserInterfaceImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\model\BikeParserImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\BrandsStorageFillerImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\DataReaderImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\UserInputReaderImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\input\validator\IntegerInputCheckerImplTest.java">
+</file>
+<file name="C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\input\validator\StringInputCheckerImplTest.java">
 </file>
 </checkstyle>

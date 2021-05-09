@@ -1,1 +1,14 @@
-C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\reader\DataReaderImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\input\validator\StringInputCheckerImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\InputFileImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\search\SearchEngineImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\catalogue\UserFriendlyBikeImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\DataReaderImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\catalogue\CatalogueCompilerImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\exit\DataIntegrityCheckerImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\input\validator\IntegerInputCheckerImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\UserInterfaceImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\model\BikeParserImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\file\writer\AutoSaveImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\BrandsStorageFillerImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\service\impl\UserInputReaderImplTest.java
+C:\Users\Puff\IdeaProjects\EcoBike\src\test\java\base\syntax\menu\options\writer\NewBikeWriterImplTest.java

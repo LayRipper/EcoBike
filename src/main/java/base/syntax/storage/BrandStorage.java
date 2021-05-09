@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class BrandStorage {
-    private static Map<String, List<String>> brandStorage = new HashMap<>();
+    private static final Map<String, List<String>> brandStorage = new HashMap<>();
 
     public static Map<String, List<String>> getBrandStorage() {
         return brandStorage;
