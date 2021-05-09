@@ -7,14 +7,15 @@ import java.io.IOException;
 
 public class AutoSaveImpl implements AutoSave {
     @Override
-    public void executeQuery(String userInput, String toFile) {
+    public String executeQuery(String userInput, String toFile) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(toFile))) {
             for (String bike : DataStorage.getStorage()) {
-                writer.write(bike);
+                writer.write(bike + "\n");
             }
-            System.out.println("Data has been successfully saved to the specified path: " + toFile);
         } catch (IOException e) {
             throw new RuntimeException("Can't find the file with the given path: " + toFile, e);
+
         }
+        return "Data has been successfully saved to the specified path: " + toFile;
     }
 }

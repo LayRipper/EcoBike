@@ -4,12 +4,8 @@ public class FoldingBike extends Bike {
     private String wheelSize;
     private String gearsNumber;
 
-    public FoldingBike() {
-    }
-
-    public FoldingBike(String brand, String wheelSize,
-                       String gearsNumber, String weight,
-                       String lightsAvailability, String color, String price) {
+    public FoldingBike(String brand, String wheelSize, String gearsNumber, String weight,
+            String lightsAvailability, String color, String price) {
         super(brand, weight, lightsAvailability, color, price);
         this.wheelSize = wheelSize;
         this.gearsNumber = gearsNumber;
@@ -33,13 +29,7 @@ public class FoldingBike extends Bike {
 
     @Override
     public String toString() {
-        return "FOLDING BIKE "
-                + getBrand() + "; "
-                + wheelSize + "; "
-                + gearsNumber + "; "
-                + getWeight() + "; "
-                + isLightsAvailable() + "; "
-                + getColor() + "; "
-                + getPrice();
+        return "FOLDING BIKE " + getBrand() + "; " + wheelSize + "; " + gearsNumber + "; "
+                + getWeight() + "; " + isLightsAvailable() + "; " + getColor() + "; " + getPrice();
     }
 }

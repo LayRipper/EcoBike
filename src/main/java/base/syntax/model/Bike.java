@@ -1,5 +1,7 @@
 package base.syntax.model;
 
+import java.util.Objects;
+
 public abstract class Bike {
     private String brand;
     private String weight;
@@ -10,8 +12,8 @@ public abstract class Bike {
     public Bike() {
     }
 
-    public Bike(String brand, String weight,
-                String lightsAvailability, String color, String price) {
+    public Bike(String brand, String weight, String lightsAvailability, String color,
+            String price) {
         this.brand = brand;
         this.weight = weight;
         this.lightsAvailable = lightsAvailability;
@@ -58,4 +60,25 @@ public abstract class Bike {
     public void setPrice(String price) {
         this.price = price;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Bike bike = (Bike) o;
+        return Objects.equals(getBrand(), bike.getBrand()) && Objects.equals(getWeight(),
+                bike.getWeight()) && Objects.equals(lightsAvailable, bike.lightsAvailable)
+                && Objects.equals(getColor(), bike.getColor()) && Objects.equals(getPrice(),
+                bike.getPrice());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getBrand(), getWeight(), lightsAvailable, getColor(), getPrice());
+    }
 }
+

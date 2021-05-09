@@ -1,5 +1,6 @@
-package base.syntax.service;
+package base.syntax.service.impl;
 
+import base.syntax.service.DataReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
